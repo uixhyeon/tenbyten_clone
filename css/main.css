@@ -12,21 +12,53 @@ a {
   text-decoration: none;
   color: #333;
 }
-.header {
-    
- 
+img{
+  display:block ;
 }
-.inner{
+  body{
+    width: 1280px;
     margin: auto;
-    width: 80%;
-     display: flex;
+  }
+  .head-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+.inner {
+  width: 80%;
+}
+
+.head-top{
+  width: 100%;
+}
+.navi-1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 100px;
+}
+.navi-1 ul {
+  display: flex;
+  gap: 10px;
+}
+.navi-1 ul li {
+  width: 70px;
+  text-align: center;
+}
+.head-bottom {
+  width: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
+.logo{
+  width: 500px;
+}
 .logo > a {
-  padding: 50px;
-  font-size: 150px;
+  display: block;
+  padding: 0 50px ;
+  font-size: 100px;
   font-family: "Baloo 2", sans-serif;
   font-weight: 1000;
 }
@@ -40,26 +72,26 @@ a {
   display: flex;
   padding: 10px 25px;
   border-radius: 100px;
-  border: solid #FF3C3C 5px;
+  border: solid #ff3c3c 5px;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
   flex-direction: row;
 }
-.search-bar input{
-    width: calc(100% - 50px);
-    border: none;
+.search-bar input {
+  width: calc(100% - 50px);
+  border: none;
 }
 /*v @@@폰트어썸 연결 @@@@물어보기 */
+/*
 .search-bar > a > .fa-solid{
     width: 50px;
     height: 50px;
     color: #333;
     display: block;
-}
-.navi-1 ul{
-    display: flex;
-    gap: 10px;
-}
-.navi-1 ul li{
-    width: 70px;
-    text-align: center;
+  }
+  */
+  .banner img{
+    width: 100%;
+  }
+.first-card{
+  display: flex;
 }
